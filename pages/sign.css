@@ -1,0 +1,127 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  text-align: center;
+  user-select: none;
+}
+* {
+  transition: all 0.2s;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url('../images/balo.jpg');
+  background-attachment: fixed;
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cont {
+  width: 450px;
+  height: fit-content;
+  border-radius: 20px;
+  /* box-shadow: 0 0 10px -0px solid black; */
+  /* background-color: white; */
+}
+.cont h2 {
+  font-size: 30px;
+}
+.cont em {
+  font-style: normal;
+  color: #ed563b;
+  font-weight: 900;
+}
+
+.aura-sec {
+  height: 60px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px 20px 0 0;
+  margin-bottom: 2px;
+}
+.form-sec {
+  /* width: 480px; */
+  padding: 20px 5px;
+  height: 400px;
+  background-color: white;
+  border-radius: 0 0 20px 20px;
+  box-sizing: border-box;
+}
+.form-sec p {
+  font-size: 18px;
+  color: rgb(85, 85, 85);
+  text-align: center;
+}
+.signchange a {
+  text-decoration: none;
+  color: #ed563b;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* input form */
+input {
+  text-align: center;
+  width: 80%;
+  height: 45px;
+  margin: 5px 0;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #f3806b;
+  margin-bottom: 20px;
+}
+input:focus {
+  outline: none;
+  border-bottom: 2px solid #ed563b;
+}
+
+input[type='email'] {
+  height: 40px;
+  outline-color: none;
+  border-bottom: 1px solid #ed563b;
+}
+
+input[type='password'] {
+  color: white;
+}
+
+button {
+  background-color: #f3806b;
+  height: 45px;
+  width: 80%;
+  border: none;
+  box-shadow: 0 0 15px -15px solid black;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  outline: none;
+  margin-bottom: 25px;
+}
+button:hover {
+  background-color: #ed563b;
+}
+
+@media only screen and (max-width: 480px) {
+  .aura-sec {
+    width: 95vw;
+  }
+  .form-sec {
+    width: 95vw;
+  }
+}
