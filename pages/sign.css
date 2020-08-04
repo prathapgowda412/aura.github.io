@@ -22,7 +22,8 @@ a {
   align-items: center;
   width: 100%;
   height: 100vh;
-  background-image: url('../images/balo.jpg');
+  background-color: #d8d8d8;
+  /* background-image: url('../images/balo.jpg'); */
   background-attachment: fixed;
   background-blend-mode: overlay;
   background-position: center;
@@ -58,7 +59,7 @@ a {
 .form-sec {
   /* width: 480px; */
   padding: 20px 5px;
-  height: 400px;
+  min-height: 400px;
   background-color: white;
   border-radius: 0 0 20px 20px;
   box-sizing: border-box;
